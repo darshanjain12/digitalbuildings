@@ -33,8 +33,3 @@ PANEL:
   implements:
   - EQUIPMENT
   
-TXMR:
-  description: "Tag for transformers."
-  is_abstract: true
-  implements:
-  - EQUIPMENT
