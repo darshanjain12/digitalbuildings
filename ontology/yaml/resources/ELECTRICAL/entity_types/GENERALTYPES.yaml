@@ -32,8 +32,6 @@ PANEL:
   is_abstract: true
   implements:
   - EQUIPMENT
-
-
   
 GEN:
   id: "4890352430123843584"
