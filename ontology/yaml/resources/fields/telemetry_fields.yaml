@@ -145,6 +145,7 @@ literals:
 - return_fan_current_sensor
 - return_fan_power_sensor
 - return_fan_torque_sensor
+
 - return_fan_run_command:
   - ON
   - OFF
