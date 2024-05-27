@@ -13,10 +13,9 @@
 # limitations under the License.
 
 
-  
 ELV:
-  id: "197601618403786752"
-  description: "Tag for all elevators."
+  guid: "fdc024ec-1903-48d4-9d8f-a2ba7eb3efaf"
+  description: "Tag for elevators."
   is_abstract: true
   implements:
-  - EQUIPMENT  
+  - EQUIPMENT

@@ -17,8 +17,8 @@
 ########################
 
 VLV_CHWVM_RTM_DTM:
-  id: "12414279712669433856"
-  description: "Chilled water valve with DT monitoring."
+  guid: "b2223a12-07e8-455b-8ae4-eed3942df5a8"
+  description: "Chilled water valve with discharge and return temperature monitoring."
   is_canonical: true
   implements:
   - VLV
@@ -27,15 +27,25 @@ VLV_CHWVM_RTM_DTM:
   - DTM
 
 VLV_HWVM: # If we want to keep this, should match CHW valve (i.e. add RTM and DTM)
-  id: "8739342416735109120"
+  guid: "d8fad139-6759-4165-b0a3-eae7d5b299a0"
   description: "Heating water valve."
   is_canonical: true
   implements:
   - VLV
   - HWVM
 
+VLV_CHWVM_CHWDT_CLPM:
+  guid: "e5d23585-6ac5-4d3b-bc2e-4278ffc6391d"
+  description: "Chilled water pressure control valve with differential temperature and thermal load monitoring."
+  is_canonical: true
+  implements:
+  - VLV
+  - CHWVM
+  - CHWDT
+  - CLPM
+
 VLV_CHWPVM:
-  id: "9833655553534984192"
+  guid: "4222857f-3f92-4663-83ac-0bb11550f568"
   description: "Chilled water pressure control valve."
   is_canonical: true
   implements:
@@ -43,7 +53,7 @@ VLV_CHWPVM:
   - CHWPVM
 
 VLV_HWPVM:
-  id: "12747484512443695104"
+  guid: "8ead3ca8-7f64-421c-9293-fcbf440bcc4f"
   description: "Heating water pressure control valve."
   is_canonical: true
   implements:
@@ -51,7 +61,7 @@ VLV_HWPVM:
   - HWPVM
 
 VLV_CDWPVM:
-  id: "8149309292898418688"
+  guid: "f656bec8-3061-4e60-b7d2-00f754bad5af"
   description: "Condensing water pressure control valve."
   is_canonical: true
   implements:
@@ -59,7 +69,7 @@ VLV_CDWPVM:
   - CDWPVM
 
 VLV_SWCM:
-  id: "17662349867114037248"
+  guid: "e0552cad-7620-462c-9571-b832cda303f5"
   description: "Solenoid water valve control and monitoring."
   is_canonical: true
   implements:

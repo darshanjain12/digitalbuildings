@@ -17,10 +17,20 @@
 ########################
 
 DC_SS_SWTC:
-  id: "14928780342021062656"
+  guid: "c52ba68c-f685-40c6-b2e2-baa5cd75e049"
   description: "Typical dry-cooler (closed loop sensible cooler)."
   is_canonical: true
   implements:
   - DC
   - SS
   - SWTC
+
+DC_SS_SWTC_RWISOVM:
+  guid: "70aab981-f70d-417f-ac7e-692b24fe5908"
+  description: "Typical dry-cooler (dry air cooler with isolation valve on the return side)."
+  is_canonical: true
+  implements:
+  - DC
+  - SS
+  - SWTC
+  - RWISOVM
